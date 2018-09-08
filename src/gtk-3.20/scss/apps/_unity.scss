@@ -33,7 +33,7 @@
             color: mix($titlebar_fg_color, $titlebar_bg_color, .1);
             text-shadow: none;
 
-            // Fixed: https://github.com/numixproject/numix-gtk-theme/issues/632
+            // Fixed: https://github.com/ninixproject/ninix-gtk-theme/issues/632
             // for L.I.M's selected menuitem
             &:hover {
                 border-radius: 0;

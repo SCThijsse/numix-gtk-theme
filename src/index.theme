@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Numix
+Name=Ninix
 Comment=A modern flat theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Numix
-IconTheme=Numix
-MetacityTheme=Numix
+GtkTheme=Ninix
+IconTheme=Ninix
+MetacityTheme=Ninix
 ButtonLayout=:minimize,maximize,close

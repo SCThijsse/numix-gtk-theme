@@ -21,7 +21,7 @@
             $bg_color: nth($colors, 2);
 
             &.#{$type} {
-                &, &:backdrop { // Backdrop button fix: https://github.com/numixproject/numix-gtk-theme/issues/544
+                &, &:backdrop { // Backdrop button fix: https://github.com/ninixproject/ninix-gtk-theme/issues/544
                     @include linear-gradient($bg_color);
 
                     border: 1px solid shade($bg_color, .8);
