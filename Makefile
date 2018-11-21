@@ -7,7 +7,7 @@ DIST_DIR=$(RES_DIR)/dist
 RES_DIR320=src/gtk-3.20
 SCSS_DIR320=$(RES_DIR320)/scss
 DIST_DIR320=$(RES_DIR320)/dist
-INSTALL_DIR=$(HOME)/.themes/Ninix
+INSTALL_DIR=$(HOME)/.themes/NinixDarker
 ROOT_DIR=${PWD}
 UTILS=scripts/utils.sh
 

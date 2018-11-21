@@ -56,13 +56,13 @@ update_changes_file() {
 	LAST_PATCH="${LAST_STABLE_RELEASE##*.}"
 
 	case "${PWD##*/}" in
-		ninix-gtk-theme)
+		ninixdarker-gtk-theme)
 			NEXT_PATCH=$(($LAST_PATCH + 1))
 
 			NEXT_STABLE_RELEASE="${LAST_MAJOR_MINOR}.${NEXT_PATCH}"
 		;;
 
-		Ninix-Frost)
+		NinixDarker-Frost)
 			LAST_MAJOR=$(($LAST_MAJOR + 1))
 			NEXT_STABLE_RELEASE="${LAST_MAJOR}.${LAST_MINOR}.${LAST_PATCH}"
 			LAST_PATCH=$(($LAST_PATCH - 1))

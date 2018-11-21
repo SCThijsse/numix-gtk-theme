@@ -27,14 +27,14 @@
         // this needs to be transparent
         // see bug #722563
         // server-side decorations as used by mutter
-        // Fixed gtk-3.18 Unity bug (https://github.com/ninixproject/ninix-gtk-theme/issues/270)
+        // Fixed gtk-3.18 Unity bug (https://github.com/ninixdarkerproject/ninixdarker-gtk-theme/issues/270)
         .ssd & { box-shadow: 0 0 0 1px $wm_border_focused; } //just doing borders, wm draws actual shadows
 
         .solid-csd & {
             border-radius: 0;
             margin: 1px;
             background-color: $titlebar_bg_color;
-            // Unity/compiz regression: Issue: https://github.com/ninixproject/ninix-gtk-theme/issues/206
+            // Unity/compiz regression: Issue: https://github.com/ninixdarkerproject/ninixdarker-gtk-theme/issues/206
             box-shadow: none;
         }
 
